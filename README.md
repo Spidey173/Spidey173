@@ -1,18 +1,60 @@
-# 💫 About Me:
-💻 I’m currently working on  <br>Building scalable backend systems and AI-powered applications using FastAPI, React, and modern cloud-friendly architectures.<br><br>🤝 I’m looking to collaborate on  <br>Full-stack or AI-based projects, especially those involving real-time systems, APIs, or LLM integrations.<br><br>🆘 I’m looking for help with  <br>Advanced system design, performance optimization, and scaling real-time applications.<br><br>🌱 I’m currently learning  <br>System design, distributed systems, and improving my expertise in AI/LLM pipelines and backend scalability.<br><br>💬 Ask me about  <br>Python, FastAPI, REST APIs, backend development, AI integrations, or debugging complex systems.<br><br>⚡ Fun fact  <br>When I’m not coding, you’ll probably find me on the court or field—badminton and cricket are my go-to stress busters.
+# 💫 Hey, I'm Pruthvi 👋
 
+🚀 Backend Developer | AI Builder | Problem Solver  
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/pruthvi-r-48ba9b2b4/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:pruthvi.r0006@gmail.com) 
-
-# 💻 Tech Stack:
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Spidey173&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=Spidey173&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Spidey173&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+I build **scalable backend systems** and **AI-powered apps** that actually solve real problems — not just tutorials.
 
 ---
-[![](https://komarev.com/ghpvc/?username=Spidey173&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## ⚡ What I'm up to
+
+- 💻 Building: FastAPI + React apps with real-time & AI features  
+- 🤝 Open to: Full-stack & AI collaborations (LLMs, APIs, real-time systems)  
+- 🧠 Learning: System Design, Distributed Systems, Scaling like a pro  
+- 🛠️ Improving: Performance optimization & production-ready architectures  
+
+---
+
+## 💬 Ask me about
+
+`Python` • `FastAPI` • `REST APIs` • `AI integrations` • `Debugging nightmares` 😄  
+
+---
+
+## 🏸 Fun side
+
+When I’m not coding, I’m probably smashing shuttlecocks or playing cricket 🏏  
+(*yes, I take both seriously 😌*)
+
+---
+
+## 🌐 Connect with me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pruthvi-r-48ba9b2b4/)  
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:pruthvi.r0006@gmail.com)
+
+---
+
+## 💻 Tech I use
+
+🔥 **Backend & AI**  
+Python • FastAPI • Flask • Django • REST APIs • JWT  
+
+⚡ **Frontend**  
+React • HTML • CSS • Tailwind • Bootstrap  
+
+🗄️ **Database & Tools**  
+PostgreSQL • MongoDB • SQLite • Docker • Git  
+
+☁️ **Deployment**  
+Vercel • Netlify • Render  
+
+---
+
+## 📊 GitHub Stats
+
+![](https://github-readme-stats.shion.dev/api?username=Spidey173&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+
+![](https://streak-stats.demolab.com/?user=Spidey173&theme=tokyonight&hide_border=true)
+
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Spidey173&theme=tokyonight&hide_border=true&layout=compact)
