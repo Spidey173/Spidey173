@@ -1,60 +1,60 @@
-# 💫 Hey, I'm Pruthvi 👋
+<h1 align="center">Pruthvi R</h1>
 
-🚀 Backend Developer | AI Builder | Problem Solver  
+<p align="center">
+Backend Engineer • AI Systems • FastAPI • React
+</p>
 
-I build **scalable backend systems** and **AI-powered apps** that actually solve real problems — not just tutorials.
-
----
-
-## ⚡ What I'm up to
-
-- 💻 Building: FastAPI + React apps with real-time & AI features  
-- 🤝 Open to: Full-stack & AI collaborations (LLMs, APIs, real-time systems)  
-- 🧠 Learning: System Design, Distributed Systems, Scaling like a pro  
-- 🛠️ Improving: Performance optimization & production-ready architectures  
+<p align="center">
+  <a href="https://www.linkedin.com/in/pruthvi-r-48ba9b2b4/">LinkedIn</a> •
+  <a href="mailto:pruthvi.r0006@gmail.com">Email</a>
+</p>
 
 ---
 
-## 💬 Ask me about
+## About
 
-`Python` • `FastAPI` • `REST APIs` • `AI integrations` • `Debugging nightmares` 😄  
+I build scalable backend systems and AI-powered applications with a focus on performance, reliability, and real-world impact.
 
----
-
-## 🏸 Fun side
-
-When I’m not coding, I’m probably smashing shuttlecocks or playing cricket 🏏  
-(*yes, I take both seriously 😌*)
+Currently working with FastAPI, React, and modern architectures to design systems that handle real-time data and intelligent workflows.
 
 ---
 
-## 🌐 Connect with me
+## Focus
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pruthvi-r-48ba9b2b4/)  
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:pruthvi.r0006@gmail.com)
-
----
-
-## 💻 Tech I use
-
-🔥 **Backend & AI**  
-Python • FastAPI • Flask • Django • REST APIs • JWT  
-
-⚡ **Frontend**  
-React • HTML • CSS • Tailwind • Bootstrap  
-
-🗄️ **Database & Tools**  
-PostgreSQL • MongoDB • SQLite • Docker • Git  
-
-☁️ **Deployment**  
-Vercel • Netlify • Render  
+- Backend engineering & API design  
+- AI-powered applications (LLMs, RAG systems)  
+- System design & scalability  
+- Performance optimization  
 
 ---
 
-## 📊 GitHub Stats
+## Stack
 
-![](https://github-readme-stats.shion.dev/api?username=Spidey173&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+Python • FastAPI • Flask • Django  
+React • JavaScript • HTML • CSS  
+PostgreSQL • MongoDB • SQLite  
+Docker • Git • REST APIs  
 
-![](https://streak-stats.demolab.com/?user=Spidey173&theme=tokyonight&hide_border=true)
+---
 
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Spidey173&theme=tokyonight&hide_border=true&layout=compact)
+## Selected Work
+
+- Real-time face detection system (WebSockets + MediaPipe + FastAPI)  
+- AI-powered PDF intelligence tool (RAG pipeline with vector search)  
+- Automated data pipeline with async workflows  
+- Full-stack e-commerce platform  
+
+---
+
+## Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Spidey173&show_icons=true&hide_border=true&theme=github_dark" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Spidey173&layout=compact&hide_border=true&theme=github_dark" height="150"/>
+</p>
+
+---
+
+## Outside Code
+
+Badminton • Cricket  
