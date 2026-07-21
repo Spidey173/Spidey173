@@ -14,6 +14,15 @@ I build **scalable backend systems** and **AI-powered apps** that actually solve
 
 ---
 
+
+## 🌐 Portfolio
+
+🔗 Live Website
+
+https://pruthvi-17.vercel.app/
+
+---
+
 ## ⚡ What I'm up to
 
 - 💻 Building → FastAPI + React apps with real-time & AI features  
