@@ -4,21 +4,18 @@
 <h1 align="center">⚡ Code. Build. Dominate.</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&color=FF4D4D&center=true&vCenter=true&width=600&lines=Backend+Developer;AI+Builder;FastAPI+%7C+React;Real-time+Systems;Scaling+Ideas+into+Reality" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=3000&color=FF4D4D&center=true&vCenter=true&width=600&lines=Backend+Developer;AI+Builder;FastAPI+%7C+React;Real-time+Systems;Scaling+Ideas+into+Reality" />
 </p>
 
 ---
-
 
 I build **scalable backend systems** and **AI-powered apps** that actually solve real problems — not just tutorials.
 
 ---
 
-
 ## 🌐 Portfolio
 
 🔗 Live Website
-
 https://pruthvi-17.vercel.app/
 
 ---
@@ -40,7 +37,7 @@ https://pruthvi-17.vercel.app/
 
 ## 🏸 Fun side
 
-When I’m not coding, I’m probably smashing shuttlecocks or playing cricket 🏏  
+When I'm not coding, I'm probably smashing shuttlecocks or playing cricket 🏏  
 (*yes, I take both seriously 😌*)
 
 ---
@@ -87,7 +84,5 @@ Vercel • Netlify • Render
 ## 📊 GitHub Stats
 
 ![](https://github-readme-stats.vercel.app/api?username=Spidey173&theme=tokyonight&hide_border=true&show_icons=true&count_private=true)
-
 ![](https://streak-stats.demolab.com?user=Spidey173&theme=tokyonight&hide_border=true)
-
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Spidey173&theme=tokyonight&hide_border=true&layout=compact)
