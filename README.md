@@ -7,11 +7,6 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=1200&color=FF4D4D&center=true&vCenter=true&width=650&lines=RAG+Pipelines+%7C+FastAPI+%7C+FAISS;Event-Driven+Backends+%7C+HMAC-Verified+Webhooks;Real-Time+Systems+with+WebSockets;MCA+%40+Jain+University+2025-27" />
 </p>
 
-<p align="center">
-  <a href="https://spidey173.github.io/"><img src="https://img.shields.io/badge/Portfolio-spidey173.github.io-ff4d4d?style=for-the-badge" /></a>
-  <a href="mailto:pruthvi.r0006@gmail.com"><img src="https://img.shields.io/badge/Open_to-Work-24243e?style=for-the-badge" /></a>
-</p>
-
 ---
 
 I build backend systems that hold up under real conditions â€” webhooks that don't double-fire, retrieval pipelines that return the right chunk, sockets that stay in sync under concurrent writes.
@@ -93,7 +88,7 @@ Shuttlecock and cricket, both taken more seriously than is probably necessary ðŸ
 <p align="left">
   <a href="https://www.linkedin.com/in/pruthvi-r-48ba9b2b4/"><img src="https://img.shields.io/badge/LinkedIn-ff4d4d?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:pruthvi.r0006@gmail.com"><img src="https://img.shields.io/badge/Email-ff4d4d?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://spidey173.github.io/"><img src="https://img.shields.io/badge/Portfolio-24243e?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://pruthvi-17.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-24243e?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </p>
 
 ---
