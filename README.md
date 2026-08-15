@@ -90,15 +90,3 @@ Shuttlecock and cricket, both taken more seriously than is probably necessary ğŸ
   <a href="mailto:pruthvi.r0006@gmail.com"><img src="https://img.shields.io/badge/Email-ff4d4d?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://pruthvi-17.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-24243e?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </p>
-
----
-
-## ğŸ“Š GitHub Stats
-
-<p align="center">
-  <img src="./profile/stats.svg" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="./profile/top-langs.svg" alt="Top Languages" />
-</p>
