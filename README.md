@@ -96,9 +96,9 @@ Shuttlecock and cricket, both taken more seriously than is probably necessary ğŸ
 ## ğŸ“Š GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Spidey173&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Spidey173&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_bust=1" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Spidey173&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Spidey173&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
