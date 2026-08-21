@@ -83,10 +83,22 @@ Shuttlecock and cricket, both taken more seriously than is probably necessary �
 
 ---
 
-## 🌐 Connect
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/pruthvi-r-48ba9b2b4/"><img src="https://img.shields.io/badge/LinkedIn-ff4d4d?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:pruthvi.r0006@gmail.com"><img src="https://img.shields.io/badge/Email-ff4d4d?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://pruthvi-17.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-24243e?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-</p>
+ ## 🌐 Connect 
+ <p align="left">  
+   <a href="https://www.linkedin.com/in/pruthvi-r-48ba9b2b4/">
+     <img src="https://img.shields.io/badge/LinkedIn-ff4d4d?style=for-the-badge&logo=linkedin&logoColor=white" />
+   /a>  <a href="mailto:pruthvi.r0006@gmail.com">
+     <img src="https://img.shields.io/badge/Email-ff4d4d?style=for-the-badge&logo=gmail&logoColor=white" />
+   </a>  
+     <a href="https://pruthvi-17.vercel.app/">
+       <img src="https://img.shields.io/badge/Portfolio-24243e?style=for-the-badge&logo=vercel&logoColor=white" />
+     </a>
+   </p> 
+ 
+ --- 
+ 
+ ## 📊 GitHub Stats 
+ <p align="center">  
+   <img src="https://streak-stats.demolab.com?user=Spidey173&theme=tokyonight&hide_border=true" />
+ </p> 
+ <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=100&section=footer" /> 
