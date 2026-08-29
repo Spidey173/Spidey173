@@ -52,6 +52,10 @@ Full-stack Flask app with session-based cart tracking (guest + authenticated) an
 FastAPI + Next.js app that verifies inbound GitHub webhooks with HMAC-SHA256, processes them asynchronously via background tasks, and deduplicates deliveries to prevent repeat triggers.
 `Live:` [git-hub-automation-bot-mvp.vercel.app](https://git-hub-automation-bot-mvp.vercel.app/)
 
+### 🔹 [Zyra](https://github.com/Spidey173/Zyra.git) — social & real-time messaging platform
+Django 5 + Django Channels app with sub-30ms WebSocket direct messaging, typing indicators, online presence, 24h stories, and vertical reels. ORM joins (`select_related`/`prefetch_related`) eliminate N+1 query overhead, media offloaded to Cloudinary.
+`Live:` [zyra-fa4v.onrender.com](https://zyra-fa4v.onrender.com/)
+
 ---
 
 ## 🧪 Open Source
@@ -61,7 +65,7 @@ FastAPI + Next.js app that verifies inbound GitHub webhooks with HMAC-SHA256, pr
 | [Glitch4ce](https://github.com/Spidey173/Glitch4ce.git) | Interactive gaming hub — 10+ retro mini-games in a unified cyberpunk dashboard, with player auth, guest access, and live SQLAlchemy-backed telemetry · [demo](https://glitch4ce.onrender.com/) | Flask (App Factory), SQLAlchemy, Flask-Login |
 | [CourtBook-Pro](https://github.com/Spidey173/CourtBook-Pro.git) | Enterprise sports court booking platform — atomic slot locking to eliminate race conditions, server-side pricing engine, 37 automated Pytest suites · [demo](https://courtbook-pro-4c7j.onrender.com/) | Flask 3+, SQLAlchemy 2.0, Pydantic, Neon PostgreSQL, Alembic |
 | [CogniStream](https://github.com/Spidey173/CogniStream.git) | Real-time facial emotion analyzer — MediaPipe Face Mesh alignment, HSEmotion ONNX inference across 8 emotion classes, streamed over WebSockets · [demo](https://cogni-stream-plum.vercel.app/) | React 19, FastAPI, MediaPipe, HSEmotion ONNX, Neon PostgreSQL |
-| [Zyra](https://github.com/Spidey173/Zyra.git) | Social media & real-time DM platform — Django Channels for sub-30ms messaging, `select_related`/`prefetch_related` to kill N+1 queries, Cloudinary media · [demo](https://zyra-fa4v.onrender.com/) | Django 5, Django Channels, Neon PostgreSQL, Cloudinary |
+| [CoreClicks](https://github.com/Spidey173/CoreClicks.git) | Link management & clickstream analytics engine — Redis-cached slug resolution for sub-5ms redirects, async geolocation/device parsing, live metric dashboards · [demo](https://coreclicks.onrender.com/) | Flask, Redis, PostgreSQL, SQLAlchemy, Chart.js |
 
 ---
 
@@ -69,7 +73,7 @@ FastAPI + Next.js app that verifies inbound GitHub webhooks with HMAC-SHA256, pr
 
 **Backend** — Python (FastAPI, Django, Flask) · REST APIs · WebSockets · async I/O
 **AI / RAG** — FAISS · Cross-Encoder Reranking · Gemini API (`google-genai`) · HSEmotion ONNX · MediaPipe
-**Data** — PostgreSQL (Neon) · SQLite · SQLAlchemy · Alembic
+**Data** — PostgreSQL (Neon) · SQLite · Redis · SQLAlchemy · Alembic
 **Frontend** — React · Next.js · TypeScript · Jinja2
 **Infra** — Docker · Git/GitHub · Vercel · Render · Hugging Face Spaces
 
