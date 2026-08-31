@@ -48,9 +48,9 @@ Flask anime & movie discovery platform on Neon PostgreSQL (with SQLite fallback)
 Full-stack Flask app with session-based cart tracking (guest + authenticated) and SQLite transactions that prevent inventory double-allocation at checkout. My PyGenicArc internship deliverable, built leading a 4-person team.
 `Live:` [Frontend](https://dailydrop-alpha.vercel.app/) · [Full stack](https://daily-drop-c96q-f5su.onrender.com/)
 
-### 🔹 [GitHub Automation Bot](https://github.com/Spidey173/GitHub-Automation-Bot-MVP.git) — event-driven webhook automation
-FastAPI + Next.js app that verifies inbound GitHub webhooks with HMAC-SHA256, processes them asynchronously via background tasks, and deduplicates deliveries to prevent repeat triggers.
-`Live:` [git-hub-automation-bot-mvp.vercel.app](https://git-hub-automation-bot-mvp.vercel.app/)
+### 🔹 [CommitForge](https://github.com/Spidey173/CommitForge.git) — event-driven GitHub automation platform
+FastAPI + Next.js platform that securely verifies GitHub webhooks with HMAC-SHA256, evaluates rule-based workflows, and automates issue labeling, PR comments, and Slack notifications. Includes a real-time observability dashboard for monitoring event processing and automation history.
+`Live:` [https://commitforge-one.vercel.app/](https://commitforge-one.vercel.app/)
 
 ### 🔹 [Zyra](https://github.com/Spidey173/Zyra.git) — social & real-time messaging platform
 Django 5 + Django Channels app with sub-30ms WebSocket direct messaging, typing indicators, online presence, 24h stories, and vertical reels. ORM joins (`select_related`/`prefetch_related`) eliminate N+1 query overhead, media offloaded to Cloudinary.
