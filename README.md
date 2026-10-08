@@ -60,7 +60,6 @@ Internship project, later extended with **Redis Lua atomic stock reservation**, 
 | **[Darkrai](https://github.com/Spidey173/Darkrai)** | HMAC-verified GitHub webhooks, Redis queue with DLQ, and a Python AST security linter. 26 tests. | [Demo](https://darkrai-one.vercel.app/) |
 | **[CogniStream](https://github.com/Spidey173/CogniStream.git)** | Real-time video detection and tracking over WebSockets with zone alerts. | |
 | **[SQL Quest](https://github.com/Spidey173/SQL-Quest)** | 100 SQL challenges in a sandboxed in-memory SQLite runner with an AST validator. | [Demo](https://sql-quest-frontend.vercel.app) |
-| **[Python Quest](https://github.com/Spidey173/Python)** | DSA practice with sandboxed execution and an LLM hint mentor. | [Demo](https://python-frontend-ruby.vercel.app/) |
 | **[CourtBook-Pro](https://github.com/Spidey173/CourtBook-Pro.git)** | Court booking with atomic slot locking and 37 Pytest tests. | [Demo](https://court-book-pro-r6oj.vercel.app/) |
 | **[Zyra](https://github.com/Spidey173/Zyra.git)** | Social app with real-time WebSocket messaging, stories, and reels. | [Demo](https://zyra-fa4v.onrender.com/) |
 
