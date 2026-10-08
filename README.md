@@ -96,7 +96,6 @@ Shuttlecock and cricket, both taken more seriously than is probably necessary
 </p>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Spidey173&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Spidey173&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
 <!-- FOOTER -->
