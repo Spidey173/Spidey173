@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://pruthvi-17.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-pruthvi--17.vercel.app-24243e?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/pruthvi-r-48ba9b2b4/"><img src="https://img.shields.io/badge/LinkedIn-Connect-ff4d4d?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/pruthvir173/"><img src="https://img.shields.io/badge/LinkedIn-Connect-ff4d4d?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:pruthvi.r0006@gmail.com"><img src="https://img.shields.io/badge/Email-Hire%20Me-ff4d4d?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
@@ -13,39 +13,42 @@
 
 ## 👋 About
 
-MCA student at Jain University, Bengaluru (2025–27, CGPA 8.45). I build backend and data systems and focus on the reliability details: atomic inventory reservation, idempotent checkouts, dead-letter queues for bad data, and verified webhooks.
+I build backend and data systems in Python, and I care about the reliability details: atomic inventory reservation, idempotent checkouts, dead-letter queues for bad data, and verified webhooks. Three internships and a set of tested, deployed projects across data pipelines, retrieval systems and full-stack apps.
 
-> 🔍 **Open to:** Backend, Data Engineering, Full-Stack, and AI/GenAI internships and junior roles, with the goal of converting to full-time.
+> 🔍 **Open to:** Backend, Data Engineering, Full-Stack, and AI/GenAI roles. Internship or full-time.
 
 ---
 
 ## 💼 Experience
 
-**AI Automation Intern, Coresium** · Remote · *Apr 2026 – May 2026*
-Built n8n and REST API automation workflows for client operations, plus validation and monitoring scripts.
+**Software Engineer Intern, ElinaAI** · Remote · *Aug 2026 – Sep 2026*
+Built and styled React front-desk UI components for appointment and patient tracking. Used AI developer tools (GitHub Copilot, Claude) to speed up drafting, debugging and writing tests.
 
-**Python Full-Stack Intern, PyGenicArc** · Remote · *Feb 2025 – May 2025*
-Led a 4-person intern team shipping **DailyDrop**, a Flask e-commerce platform. Designed the core backend, schemas, and checkout endpoints.
+**AI Automation Intern, Coresium** · Remote · *Apr 2026 – May 2026*
+Built n8n automation workflows using REST APIs, with Python scripts to validate data before processing.
+
+**Python Full-Stack Intern, PyGenicArc** · Chitradurga · *Feb 2025 – May 2025*
+Led a 4-person intern team building **DailyDrop**, a Flask e-commerce platform. Built authentication, cart, checkout, the admin dashboard and the PostgreSQL schema, and set up GitHub Actions CI with Pytest and Flake8.
 
 ---
 
 ## 🚀 Featured Projects
 
 ### 🏦 [LedgerFlow](https://github.com/Spidey173/LedgerFlow): Banking Data Pipeline
-Medallion-style ETL over **5.84M records in 10 banking datasets**. Chunked streaming, referential checks before load, **718K bad records quarantined** to an audited DLQ, and about 5.12M curated rows bulk-loaded with PostgreSQL `COPY`. Customer 360 mart served via FastAPI. **41 Pytest tests**, Airflow DAG, Docker Compose, and one-command run.
+Medallion-style ETL over **5.84M records in 10 banking datasets**. Chunked streaming, referential checks before load, **718K bad records quarantined** to an audited DLQ, and about 5.12M clean rows bulk-loaded with PostgreSQL `COPY`. Customer 360 mart served via FastAPI. **41 Pytest tests**, Airflow DAG, Docker Compose, and one-command run.
 `Python` `Pandas` `PostgreSQL` `FastAPI` `Airflow` `Docker`
 
-### 🛒 [DailyDrop](https://github.com/Spidey173/Dailydrop): Oversell-Safe E-Commerce
-Internship project extended with **Redis Lua atomic stock reservation**, idempotency keys, a transactional outbox with RQ workers, and **Razorpay HMAC** webhook reconciliation. **42 Pytest tests.**
-`Flask` `PostgreSQL` `Redis` `Razorpay` · 🔗 [Live Demo](https://daily-drop-nu.vercel.app/)
+### 🧠 [Chronexa](https://github.com/Spidey173/Chronexa): Work-Memory Search Assistant
+A personal memory assistant that answers questions about past work, meetings and notes. Point-in-time (`as_of`) filtering keeps future records from answering past questions, with BM25 + RRF retrieval and a dry-run action assistant.
+`Python` `BM25` `RRF` `Multi-LLM`
 
-### 📡 [Chronicle](https://github.com/Spidey173/Chronicle): Event Ingestion Platform
-FastAPI gateway → **partitioned Kafka topics** → consumer groups loading a **PostgreSQL star schema**, with an audited dead-letter queue, idempotent consumers, and Redis rate limiting. Docker Compose and GitHub Actions CI.
-`FastAPI` `Kafka` `PostgreSQL` `Redis`
-
-### 🧠 [Veridocs](https://github.com/Spidey173/InsightPDF): Document Q&A with Claim Checking
+### 📄 [Veridocs](https://github.com/Spidey173/InsightPDF): Document Q&A with Claim Checking
 Two-stage retrieval (embeddings, then **cross-encoder rerank**) plus sentence-level checks that mark claims supported, contradicted, or unverifiable. Streams answers with citations linked to the PDF. **78 Pytest tests.**
 `Next.js` `FastAPI` `FastEmbed` · 🔗 [Live Demo](https://huggingface.co/spaces/Spidey173/insightpdf)
+
+### 🛒 [DailyDrop](https://github.com/Spidey173/Dailydrop): E-Commerce Platform
+Internship project, later extended with **Redis Lua atomic stock reservation**, idempotency keys, a transactional outbox with RQ workers, and **Razorpay HMAC** webhook reconciliation. **42 Pytest tests.**
+`Flask` `PostgreSQL` `Redis` `Razorpay` · 🔗 [Live Demo](https://daily-drop-nu.vercel.app/)
 
 ---
 
@@ -53,7 +56,7 @@ Two-stage retrieval (embeddings, then **cross-encoder rerank**) plus sentence-le
 
 | Project | What it does | Links |
 |---|---|---|
-| **Chronexa** | Work-memory search with point-in-time (`as_of`) filtering to prevent future-data leakage; BM25 + RRF retrieval and a dry-run action assistant. <!-- TODO: add repo link --> | |
+| **[Chronicle](https://github.com/Spidey173/Chronicle)** | Event ingestion: FastAPI gateway → partitioned Kafka topics → consumer groups loading a PostgreSQL star schema, with an audited DLQ, idempotent consumers and Redis rate limiting. | |
 | **[Darkrai](https://github.com/Spidey173/Darkrai)** | HMAC-verified GitHub webhooks, Redis queue with DLQ, and a Python AST security linter. 26 tests. | [Demo](https://darkrai-one.vercel.app/) |
 | **[CogniStream](https://github.com/Spidey173/CogniStream.git)** | Real-time video detection and tracking over WebSockets with zone alerts. | [Demo](https://cogni-stream-plum.vercel.app/) |
 | **[SQL Quest](https://github.com/Spidey173/SQL-Quest)** | 100 SQL challenges in a sandboxed in-memory SQLite runner with an AST validator. | [Demo](https://sql-quest-frontend.vercel.app) |
@@ -67,11 +70,18 @@ Two-stage retrieval (embeddings, then **cross-encoder rerank**) plus sentence-le
 
 | Area | Tools |
 |---|---|
-| **Backend** | Python · FastAPI · Django · Flask · REST · WebSockets · SSE · JWT |
+| **Backend** | Python · FastAPI · Flask · REST · WebSockets · SSE · JWT |
 | **Data** | PostgreSQL · Redis · Kafka · Pandas · Airflow · SQLAlchemy · Alembic |
-| **AI / RAG** | FastEmbed · Cross-Encoder Reranking · BM25 · FAISS · Gemini · Groq |
+| **AI / RAG** | FastEmbed · Cross-Encoder Reranking · BM25 · Gemini · Groq · n8n |
 | **Frontend** | React · Next.js · TypeScript · Tailwind CSS |
 | **Infra & Testing** | Pytest · Docker · GitHub Actions · Vercel · Render |
+
+---
+
+## 🎓 Education
+
+**MCA**, Jain University, Bengaluru · 2025 – 2027 · CGPA 8.45
+**Bachelor's in Computer Science**, Davangere University · 2022 – 2025
 
 ---
 
