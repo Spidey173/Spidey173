@@ -42,13 +42,13 @@ Medallion-style ETL over **5.84M records in 10 banking datasets**. Chunked strea
 A personal memory assistant that answers questions about past work, meetings and notes. Point-in-time (`as_of`) filtering keeps future records from answering past questions, with BM25 + RRF retrieval and a dry-run action assistant.
 `Python` `BM25` `RRF` `Multi-LLM`
 
-### 📄 [Veridocs](https://github.com/Spidey173/InsightPDF): Document Q&A with Claim Checking
+### 📄 [Veridocs](https://github.com/Spidey173/Veridocs.git): Document Q&A with Claim Checking
 Two-stage retrieval (embeddings, then **cross-encoder rerank**) plus sentence-level checks that mark claims supported, contradicted, or unverifiable. Streams answers with citations linked to the PDF. **78 Pytest tests.**
-`Next.js` `FastAPI` `FastEmbed` · 🔗 [Live Demo](https://huggingface.co/spaces/Spidey173/insightpdf)
+`Next.js` `FastAPI` `FastEmbed` · 🔗 [Live Demo](https://veridocs-gamma.vercel.app/))
 
 ### 🛒 [DailyDrop](https://github.com/Spidey173/Dailydrop): E-Commerce Platform
 Internship project, later extended with **Redis Lua atomic stock reservation**, idempotency keys, a transactional outbox with RQ workers, and **Razorpay HMAC** webhook reconciliation. **42 Pytest tests.**
-`Flask` `PostgreSQL` `Redis` `Razorpay` · 🔗 [Live Demo](https://daily-drop-nu.vercel.app/)
+`Flask` `PostgreSQL` `Redis` `Razorpay` · 🔗 [Live Demo](https://dailydrop17.vercel.app/)
 
 ---
 
@@ -56,12 +56,12 @@ Internship project, later extended with **Redis Lua atomic stock reservation**, 
 
 | Project | What it does | Links |
 |---|---|---|
-| **[Chronicle](https://github.com/Spidey173/Chronicle)** | Event ingestion: FastAPI gateway → partitioned Kafka topics → consumer groups loading a PostgreSQL star schema, with an audited DLQ, idempotent consumers and Redis rate limiting. | |
+| **[Chronicle](https://github.com/Spidey173/Chronicle)** | Event ingestion: FastAPI gateway → partitioned Kafka topics → consumer groups loading a PostgreSQL star schema, with an audited DLQ, idempotent consumers and Redis rate limiting. | [Demo](https://chronicle-sigma-ashy.vercel.app/) |
 | **[Darkrai](https://github.com/Spidey173/Darkrai)** | HMAC-verified GitHub webhooks, Redis queue with DLQ, and a Python AST security linter. 26 tests. | [Demo](https://darkrai-one.vercel.app/) |
-| **[CogniStream](https://github.com/Spidey173/CogniStream.git)** | Real-time video detection and tracking over WebSockets with zone alerts. | [Demo](https://cogni-stream-plum.vercel.app/) |
+| **[CogniStream](https://github.com/Spidey173/CogniStream.git)** | Real-time video detection and tracking over WebSockets with zone alerts. | |
 | **[SQL Quest](https://github.com/Spidey173/SQL-Quest)** | 100 SQL challenges in a sandboxed in-memory SQLite runner with an AST validator. | [Demo](https://sql-quest-frontend.vercel.app) |
 | **[Python Quest](https://github.com/Spidey173/Python)** | DSA practice with sandboxed execution and an LLM hint mentor. | [Demo](https://python-frontend-ruby.vercel.app/) |
-| **[CourtBook-Pro](https://github.com/Spidey173/CourtBook-Pro.git)** | Court booking with atomic slot locking and 37 Pytest tests. | [Demo](https://courtbook-pro-4c7j.onrender.com/) |
+| **[CourtBook-Pro](https://github.com/Spidey173/CourtBook-Pro.git)** | Court booking with atomic slot locking and 37 Pytest tests. | [Demo](https://court-book-pro-r6oj.vercel.app/) |
 | **[Zyra](https://github.com/Spidey173/Zyra.git)** | Social app with real-time WebSocket messaging, stories, and reels. | [Demo](https://zyra-fa4v.onrender.com/) |
 
 ---
