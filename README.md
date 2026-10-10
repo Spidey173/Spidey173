@@ -58,10 +58,10 @@ Internship project, later extended with **Redis Lua atomic stock reservation**, 
 |---|---|---|
 | **[Chronicle](https://github.com/Spidey173/Chronicle)** | Event ingestion: FastAPI gateway → partitioned Kafka topics → consumer groups loading a PostgreSQL star schema, with an audited DLQ, idempotent consumers and Redis rate limiting. | [Demo](https://chronicle-sigma-ashy.vercel.app/) |
 | **[Darkrai](https://github.com/Spidey173/Darkrai)** | HMAC-verified GitHub webhooks, Redis queue with DLQ, and a Python AST security linter. 26 tests. | [Demo](https://darkrai-one.vercel.app/) |
-| **[CogniStream](https://github.com/Spidey173/CogniStream.git)** | Real-time video detection and tracking over WebSockets with zone alerts. | |
+| **[CogniStream](https://github.com/Spidey173/CogniStream.git)** | Real-time video detection and tracking over WebSockets with zone alerts. | [Demo](https://cognistream17.vercel.app/) |  
 | **[SQL Quest](https://github.com/Spidey173/SQL-Quest)** | 100 SQL challenges in a sandboxed in-memory SQLite runner with an AST validator. | [Demo](https://sql-quest-frontend.vercel.app) |
 | **[CourtBook-Pro](https://github.com/Spidey173/CourtBook-Pro.git)** | Court booking with atomic slot locking and 37 Pytest tests. | [Demo](https://court-book-pro-r6oj.vercel.app/) |
-| **[Zyra](https://github.com/Spidey173/Zyra.git)** | Social app with real-time WebSocket messaging, stories, and reels. | [Demo](https://zyra-fa4v.onrender.com/) |
+| **[Zyra](https://github.com/Spidey173/Zyra.git)** | Social app with real-time WebSocket messaging, stories, and reels. | [Demo](https://zyra17.vercel.app/) |
 
 ---
 
