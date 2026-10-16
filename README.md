@@ -30,7 +30,7 @@ I build Python backend and data systems and care about the reliability details: 
 
 ### 🧠 [Chronexa](https://github.com/Spidey173/Chronexa) · Work-Memory Search & Action Assistant
 BM25 + dense embeddings fused with RRF, then cross-encoder rerank. Strict `as_of` gating so future records can't answer past questions, plus calibrated abstention. Dry-run action assistant confirms destructive commands.
-`Python` `BM25` `RRF` `FastEmbed` `Cross-Encoder` `LLMs`
+`Python` `BM25` `RRF` `FastEmbed` `Cross-Encoder` `LLMs` . [Live Demo](https://chronexa.streamlit.app/)
 
 ### 📄 [Veridocs](https://github.com/Spidey173/Veridocs) · Document Q&A with Claim Checking
 Two-stage retrieval with clickable page citations. Every sentence of an answer is marked **verified, inferred or unsupported**, with numeric consistency checks. Streams over SSE.
