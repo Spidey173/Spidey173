@@ -27,7 +27,7 @@ I build Python backend and data systems, with a focus on reliable pipelines, API
 ### 🏦 [LedgerFlow](https://github.com/Spidey173/LedgerFlow) · Banking ETL pipeline and warehouse
 Processes 10 datasets with chunked streaming, foreign-key validation, an audited dead-letter queue, and PostgreSQL `COPY` bulk loads. Serves Customer 360 marts through FastAPI. Includes 41 tests, an Airflow DAG, and Docker Compose.
 
-`Python` `Pandas` `PostgreSQL` `FastAPI` `Airflow` `Docker` · [Live API](https://ledgerflow17.vercel.app/docs)
+`Python` `Pandas` `PostgreSQL` `FastAPI` `Airflow` `Docker` · [Live API](https://ledgerflow17.vercel.app/)
 
 ### 🧠 [Chronexa](https://github.com/Spidey173/Chronexa) · Work-memory search and action assistant
 Combines BM25 and dense retrieval with RRF fusion and cross-encoder reranking. Enforces strict `as_of` filters to prevent future records from answering past questions, supports calibrated abstention, and previews destructive actions before execution.
