@@ -56,10 +56,16 @@ Built n8n workflows over REST APIs, with Python validation before processing.
 **Python Full-Stack Intern · PyGenicArc** · *Feb – May 2025*  
 Led a four-person team building DailyDrop, from authentication and checkout to the admin dashboard and CI.
 
-## Education
 
-**MCA (Online)** · Jain University · 2025–2027 · CGPA 8.45  
-**Bachelor of Computer Applications (BCA)** · Davangere University · 2022–2025 · CGPA 8.07  
-**Certifications:** Google IT Automation with Python · Meta Full-Stack Developer · Microsoft SQL Server
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" alt="" />
+ 
+## 🎓 Education
+ 
+**Master's in Computer Science**, Jain University · 2025 – 2027 · CGPA 8.45
+**Bachelor's in Computer Science**, Davangere University · 2022 – 2025 · CGPA 8.07
+Certifications: Google IT Automation with Python · Meta Full-Stack Developer · Microsoft SQL Server
+ 
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Spidey173&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" />
+ 
