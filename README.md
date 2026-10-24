@@ -48,10 +48,10 @@ A grocery storefront and admin platform built with Flask and PostgreSQL. Checkou
 ## Experience
 
 **Software Engineer Intern · ElinaAI** · Remote · *Aug – Sep 2026*  
-Built a React front-desk interface for appointment and patient tracking.
+Built front-desk UI components in React and connected them with Python REST APIs for appointment tracking.
 
-**AI Automation Intern · Coresium** · Remote · *Apr – May 2026*  
-Built n8n workflows over REST APIs, with Python validation before processing.
+**Artificial Intelligence Intern · Coresium** · Remote · *Apr – May 2026*  
+Built automation workflows in n8n and wrote Python validation scripts to format data between internal tools.
 
 **Python Full-Stack Intern · PyGenicArc** · *Feb – May 2025*  
 Led a four-person team building DailyDrop, from authentication and checkout to the admin dashboard and CI.
