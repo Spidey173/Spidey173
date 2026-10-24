@@ -61,7 +61,9 @@ Led a four-person team building DailyDrop, from authentication and checkout to t
 ## 🎓 Education
  
 **Master's in Computer Science**, Jain University · 2025 – 2027 · CGPA 8.45
+
 **Bachelor's in Computer Science**, Davangere University · 2022 – 2025 · CGPA 8.07
+
 Certifications: Google IT Automation with Python · Meta Full-Stack Developer · Microsoft SQL Server
  
 <p align="center">
