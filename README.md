@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://pruthvi-17.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-24243e?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/pruthvir173/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:pruthvir6666@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:pruthvi.r0006@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 I build dependable backend and data systems—from a banking warehouse processing millions of records, to workplace-memory search that respects time, to commerce flows that protect inventory and payments.
