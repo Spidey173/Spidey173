@@ -59,22 +59,22 @@ MCA student at Jain University (CGPA 8.45/10) with three engineering internships
 
 ---
 
-## 💼 Experience (Measurable Outcomes)
+## 💼 Experience
 
 - **Software Engineer Intern · ElinaAI** · Remote · *Aug 2026 – Sep 2026*  
-  - Developed responsive front-desk appointment and patient tracking interfaces in React connected to 8+ Python REST endpoints for real-time CRUD and status updates.
-  - Implemented client-side schema validation and error boundaries, eliminating booking dropouts.
-  - Automated frontend component and API integration tests under senior engineering guidance, accelerating PR verification cycles.
+  - Developed and styled front-desk UI components using React.js and modern JavaScript for appointment scheduling and patient tracking.
+  - Connected frontend components with Python REST API endpoints to fetch, display, and update records.
+  - Used AI developer tools (GitHub Copilot, Claude) to accelerate code drafting, debugging, and writing tests under senior guidance.
 
 - **Artificial Intelligence Intern · Coresium** · Remote · *Apr 2026 – May 2026*  
-  - Engineered 12+ automated integration workflows connecting internal tools and operational databases via n8n and REST APIs, cutting manual data re-entry time by ~60%.
-  - Authored Python schema validation scripts that intercepted malformed payloads prior to ingestion, reducing pipeline runtime failures across daily syncs.
-  - Documented webhook schemas and failover protocols, establishing automated alerting for operational disruptions.
+  - Engineered integration workflows using n8n and REST APIs to interconnect internal tools and eliminate repetitive manual processes.
+  - Wrote Python validation scripts to check data formatting and catch errors before processing.
+  - Partnered with cross-functional teams to test, monitor, and document production pipelines across daily operations.
 
 - **Python Backend &amp; Full-Stack Intern · PyGenicArc** · Chitradurga · *Feb 2025 – May 2025*  
-  - Led a 4-intern team building DailyDrop (Flask 3 quick-commerce platform with 200+ grocery SKUs), architecting decoupled services for catalog validation, inventory reservation, and checkout.
-  - Enforced single-source-of-truth inventory consistency with atomic conditional SQL decrements, sub-millisecond Redis Lua fast-rejection, Decimal financial precision, and Razorpay HMAC-SHA256 verification.
-  - Configured CI pipelines running 76 unit &amp; integration Pytests on pull requests, covering concurrency, outbox durability, and HMAC verification.
+  - Led a 4-member intern team developing DailyDrop (Flask e-commerce platform), modularizing core logic into catalog, order, and payment services.
+  - Implemented core backend services including user authentication, cart sessions, transactional checkout, and admin analytics dashboards.
+  - Designed normalized PostgreSQL schemas with connection pooling, and configured CI pipelines executing 76 unit &amp; integration Pytests on pull requests.
 
 ---
 
