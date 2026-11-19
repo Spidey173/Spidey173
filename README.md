@@ -19,33 +19,33 @@ MCA student at Jain University (CGPA 8.45/10) with three engineering internships
 
 ## ⚡ Grounded Metrics Across Projects
 
-| 5.86M | ~42,000 / sec | 86.8% | 76 | 330+ |
+| 5.86M | ~42,000 / sec | 86.8% | 116 | 470+ |
 |:---:|:---:|:---:|:---:|:---:|
-| Synthetic records processed by LedgerFlow | Bulk COPY streaming into PostgreSQL (Local Docker Benchmark) | Holdout Top-10 retrieval (n=100, Local Benchmark) in Chronexa | Passing Pytests in DailyDrop (Local Concurrency Suite) | Automated tests across repositories |
+| Synthetic records processed by LedgerFlow | Bulk COPY streaming into PostgreSQL (Local Docker Benchmark) | Holdout Top-10 retrieval (n=100, Local Benchmark) in Chronexa | Passing test cases in DailyDrop (Local Concurrency Suite) | Automated tests across repositories |
 
 ---
 
 ## 🏆 Top 3 Flagship Systems
 
 ### 1. 🛒 [DailyDrop — Full-Stack Quick-Commerce Platform](https://github.com/Spidey173/Dailydrop) *(Backend Focus)*
-*Quick-commerce platform engineered with atomic transactional checkout, server-authoritative cart pricing, and modular service blueprints.*
+*Quick-commerce platform engineered with atomic transactional checkout, server-authoritative cart pricing, Redis Lua concurrency locks, and modular service blueprints.*
 - **Problem**: Concurrent grocery checkout spikes cause overselling race conditions and client-side price tampering.
-- **Decision**: Enforced server-authoritative price reconciliation against PostgreSQL, atomic conditional decrements (`UPDATE products SET stock = stock - %s WHERE id = %s AND stock >= %s`), connection pooling (`minconn=1, maxconn=4`), and Razorpay HMAC-SHA256 signature verification.
-- **Evidence**: **76 passing Pytests** across 14 modules verifying zero overselling across simulated concurrent checkouts, atomic rollbacks, and HMAC checks; live storefront deployed on Vercel with Neon PostgreSQL.
+- **Decision**: Enforced server-authoritative price reconciliation against PostgreSQL, **Redis Lua atomic inventory decrements** with conditional SQL lock ordering (`UPDATE products SET stock = stock - %s WHERE id = %s AND stock >= %s`), ACID order state machines, connection pooling (`minconn=1, maxconn=4`), and Razorpay HMAC-SHA256 signature verification.
+- **Evidence**: **116 passing tests across 21 test files** verifying zero overselling across simulated concurrent checkouts, inventory lock ordering (`test_inventory_lock_ordering.py`), atomic rollbacks, and HMAC checks; live storefront deployed on Vercel with Neon PostgreSQL.
 - 🌐 **Links**: [Live Storefront](https://dailydrop17.vercel.app/) · [Admin Portal](https://dailydrop17.vercel.app/admin_login) · [GitHub Repository](https://github.com/Spidey173/Dailydrop)
 
 ### 2. 🏦 [LedgerFlow — Banking Data Pipeline & AWS S3 Lakehouse](https://github.com/Spidey173/LedgerFlow) *(Data Engineering Focus)*
-*End-to-end financial data pipeline that ingests, validates, and cleans raw banking records across 10 relational tables.*
+*End-to-end Medallion financial data pipeline that ingests, validates, and models raw banking records across 10 relational tables.*
 - **Problem**: Ingesting 5.86M unvalidated banking records risks pipeline stalls, foreign-key deadlocks, and credential leakage.
-- **Decision**: Dynamic in-memory AES-256 decryption via AWS SSM KMS SecureString, 4-tier topological sorting (Lookups ➔ Customers ➔ Portfolios ➔ Transactions), audited AWS S3 Dead Letter Queue (DLQ), and native PostgreSQL binary COPY streaming (`chunksize=250k–300k`).
-- **Evidence**: **~42,000 rows/sec** bulk COPY streaming (local Docker benchmark) loading 5.15M+ synthetic rows in ~2.1m; **720,000+ quarantined rows** in S3 DLQ with zero pipeline crashes; **55 passing Pytests**.
+- **Decision**: **Medallion Architecture (Bronze ➔ Silver ➔ Gold)**, Apache Airflow DAG orchestration, AWS Glue ETL jobs, dynamic in-memory AES-256 decryption via AWS SSM Parameter Store (KMS SecureString), 4-tier topological sorting, audited AWS S3 Dead Letter Queue (DLQ), and native PostgreSQL binary COPY streaming (`chunksize=250k–300k`).
+- **Evidence**: **~42,000 rows/sec** bulk COPY streaming (local Docker benchmark) loading 5.15M+ synthetic rows in ~2.1m; **720,000+ quarantined rows** in S3 DLQ with zero pipeline crashes; **60 passing Pytests**.
 - 🌐 **Links**: [Live Executive Portal](https://ledgerflow17.vercel.app/) · [DLQ Audit Report](https://ledgerflow17.vercel.app/audit-report) · [GitHub Repository](https://github.com/Spidey173/LedgerFlow)
 
 ### 3. ⏱️ [Chronexa — Point-in-Time Workplace-Memory Search & Safe Action Assistant](https://github.com/Spidey173/Chronexa) *(Retrieval & AI Systems Focus)*
 *Point-in-time workplace-memory search engine and dry-run Action Assistant (TextOS) eliminating temporal leakage and prompt injection risks.*
 - **Problem**: Standard RAG retrieves future facts invalid at historical query times, and unconstrained LLM actions risk destructive OAuth side-effects.
-- **Decision**: Pre-retrieval temporal cutoff (`timestamp <= as_of & NOT deleted`, guaranteeing 0.0% future leakage), dual-stream FastEmbed ONNX BGE dense vectors + passage-cached BM25 fused via RRF ($k=60$), cross-encoder reranking, and allowlisted dry-run JSON schemas.
-- **Evidence**: **86.8% Holdout Top-10 retrieval** on $n=100$ unseen queries (MRR 0.683, local benchmark); **12/12 passing action benchmark schemas**; **50 passing Pytests**.
+- **Decision**: Pre-retrieval temporal cutoff (`timestamp <= as_of & NOT deleted`, guaranteeing 0.0% future leakage), dual-stream FastEmbed ONNX BGE dense vectors + passage-cached BM25 fused via Reciprocal Rank Fusion ($k=60$), cross-encoder joint reranking, and allowlisted dry-run JSON schemas.
+- **Evidence**: **86.8% Holdout Top-10 retrieval** on $n=100$ unseen queries (MRR 0.683, local benchmark) and **94.4% Dev Top-10**; **12/12 passing action benchmark schemas**; **62 passing Pytests across 6 test modules**.
 - 🌐 **Links**: [Live Web UI](https://chronexa17.vercel.app/) · [GitHub Repository](https://github.com/Spidey173/Chronexa)
 
 ---
@@ -54,8 +54,8 @@ MCA student at Jain University (CGPA 8.45/10) with three engineering internships
 
 | System | Focus | Architectural Highlights | Verified Testing | Links |
 | :--- | :--- | :--- | :--- | :--- |
-| **Darkrai** | DevSecOps Automation &amp; AST Linter | Sub-5ms webhook HMAC-SHA256 gateway, Redis worker queues with DLQ, Python AST security linter (`ast.parse()`), transactional outbox, and SSE streaming. | **44 Pytests** | [Live Console](https://darkrai17.vercel.app/) • [Code](https://github.com/Spidey173/Darkrai) |
-| **Veridocs** | Forensic Document AI &amp; Canvas Diff | PDF.js viewport coordinate normalization, hybrid BM25 + FAISS search, cross-version clause contradiction diffing, and pixel-level bounding boxes. | **107 Tests** | [Live Viewer](https://veridocs17.vercel.app/) • [Code](https://github.com/Spidey173/Veridocs) |
+| **Darkrai** | DevSecOps Automation &amp; AST Linter | Sub-5ms webhook HMAC-SHA256 gateway, Redis worker queues with DLQ, Python AST security linter (`ast.parse()`), transactional outbox pattern, and Next.js 16 real-time monitoring console. | **75 Pytests** (9 test modules) | [Live Console](https://darkrai17.vercel.app/) • [Code](https://github.com/Spidey173/Darkrai) |
+| **Veridocs** | Document AI &amp; RAG Triad Telemetry | PostgreSQL **pgvector (HNSW cosine embeddings)** + hybrid BM25 search, automated **RAG Triad Telemetry** (Groundedness, Context Relevance, Answer Relevance), citation drawer, and side-by-side document diffing. | **160 Tests** (Backend Pytest + Playwright E2E) | [Live Viewer](https://veridocs17.vercel.app/) • [Code](https://github.com/Spidey173/Veridocs) |
 
 ---
 
@@ -74,7 +74,7 @@ MCA student at Jain University (CGPA 8.45/10) with three engineering internships
 - **Python Backend &amp; Full-Stack Intern · PyGenicArc** · Chitradurga · *Feb 2025 – May 2025*  
   - Led a 4-member intern team developing DailyDrop (Flask e-commerce platform), modularizing core logic into catalog, order, and payment services.
   - Implemented core backend services including user authentication, cart sessions, transactional checkout, and admin analytics dashboards.
-  - Designed normalized PostgreSQL schemas with connection pooling, and configured CI pipelines executing 76 unit &amp; integration Pytests on pull requests.
+  - Designed normalized PostgreSQL schemas with connection pooling, and configured CI pipelines executing unit &amp; integration Pytests on pull requests.
 
 ---
 
@@ -87,11 +87,11 @@ MCA student at Jain University (CGPA 8.45/10) with three engineering internships
 
 ## 🧰 Technical Stack (Grounded in Featured Work)
 
-- **Languages &amp; Core**: Python (3.11+), SQL (PostgreSQL), Modern JavaScript (ES6+), HTML5/CSS3, Bash
+- **Languages &amp; Core**: Python (3.11+), SQL (PostgreSQL), Modern JavaScript / TypeScript, HTML5/CSS3, Bash
 - **Backend Systems**: FastAPI, Flask 3, RESTful APIs, Redis (Caching, Queues &amp; Lua), Pydantic, WebSockets &amp; SSE
-- **Data Engineering**: PostgreSQL 16 (Neon), Bulk psycopg COPY Streaming (~42k rows/sec), AWS S3 Lakehouse, AWS SSM (KMS SecureString), Dead Letter Queues (DLQ), Connection Pooling
-- **Retrieval &amp; RAG**: Hybrid RAG (FastEmbed ONNX BGE-small + BM25), Reciprocal Rank Fusion (RRF, k=60), Cross-Encoder Reranking, Temporal Filtering (`as_of`)
-- **DevOps &amp; Testing**: Docker, Git/GitHub, Pytest (330+ tests across repositories), GitHub Actions CI/CD matrix, Flake8
+- **Data Engineering**: PostgreSQL 16 (Neon), Bulk psycopg COPY Streaming (~42k rows/sec), Medallion Architecture, Apache Airflow DAGs, AWS Glue, AWS S3 Lakehouse, AWS SSM (KMS SecureString), Dead Letter Queues (DLQ), Connection Pooling
+- **Retrieval &amp; RAG**: Hybrid RAG (FastEmbed ONNX BGE-small + BM25), PostgreSQL pgvector (HNSW), Reciprocal Rank Fusion (RRF, k=60), Cross-Encoder Reranking, Temporal Filtering (`as_of`), RAG Triad Telemetry
+- **DevOps &amp; Testing**: Docker, Git/GitHub, Pytest (470+ tests across repositories), Playwright E2E browser testing, GitHub Actions CI/CD matrix, Flake8
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Spidey173&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />
